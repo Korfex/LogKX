@@ -1,0 +1,14 @@
+[package]
+name = "LogKX"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+tokio               = { version = "1.12.0", features = ["full"] }
+futures             = "*"
+glow                = "0.10.0"
+glutin              = "0.27.*"
+winit               = "0.25.*"
+imgui               = { git = "https://github.com/imgui-rs/imgui-rs" }
+imgui-winit-support = { git = "https://github.com/imgui-rs/imgui-rs" }
+imgui-glow-renderer = { git = "https://github.com/imgui-rs/imgui-rs" }
